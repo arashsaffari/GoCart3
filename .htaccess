@@ -6,4 +6,4 @@ RewriteRule ^(.*)$ - [E=BASE:%1]
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ %{ENV:BASE}/index.php/$1 [L]
+RewriteRule ^(.*)$ %{ENV:BASE}/index.php/$1 [L]1
